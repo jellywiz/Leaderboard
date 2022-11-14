@@ -14,7 +14,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
    run the following commands in your terminal
-  - git clone https://github.com/jellywiz/webpack-template.git
+  - git clone https://github.com/jellywiz/Leaderboard.git
   - git checkout main
 ### Install
    you can install the following linters into your proejct through node, by these commands:
