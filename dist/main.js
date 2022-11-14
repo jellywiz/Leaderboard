@@ -115,7 +115,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style.css */ \"./src/style.css\");\n\r\n\r\nconst a = document.querySelector('body');\r\n\r\na.innerHTML += 'Hello World';\n\n//# sourceURL=webpack://web-template/./src/js/App.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style.css */ \"./src/style.css\");\n\n\nconst a = document.querySelector('body');\n\na.innerHTML += 'Hello World';\n\n//# sourceURL=webpack://web-template/./src/js/App.js?");
 
 /***/ })
 
