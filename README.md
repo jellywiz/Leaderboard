@@ -14,7 +14,7 @@
 
 # Live Demo
 
-[Demo](Link)
+[Demo](https://jellywiz.github.io/Leaderboard/)
 
 ## Getting Started
 
