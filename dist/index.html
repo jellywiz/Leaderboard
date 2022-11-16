@@ -7,12 +7,25 @@
     <title>Leaderboard</title>
   <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
   <body>
-    <h1>Leaderboard</h1>
-    <section>
-      <div>
-        <div>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+    <section class="container">
+      <div class="left-container">
+        <div class="recent-con">
           <h2>Recent scores</h2>
-          <button type="button">Refresh</button>
+          <button class="refresh" type="button">Refresh</button>
+        </div>
+        <ul class="recent-scores"></ul>
+      </div>
+      <div class="right-container">
+        <h2>Add your score</h2>
+        <div class="form-class">
+          <input type="text" class="name-input" placeholder="Your name" />
+          <input type="text" class="score-input" placeholder="Your score" />
+        </div>
+        <div class="btn-submit">
+          <button class="submit" type="submit">Submit</button>
         </div>
       </div>
     </section>
