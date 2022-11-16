@@ -27,6 +27,18 @@
 - you can clone this repo by typing `git clone https://github.com/jellywiz/Leaderboard.git`.
 - type `cd Leaderboard.git` to access the project on terminal.
 
+### Installation
+
+**To make the project run in your local machine:**
+
+1. - You will need to set up or install webpack in your machine. Open the link bellow for set up.
+2. - https://webpack.js.org/guides/getting-started/#basic-setup
+
+**Installation of Packages.Json: Run the code bellow inside your terminal to install Packages.Json in your local machine.**
+
+1. npm install --save-dev stylelint stylelint-config-standard.
+2. { "extends": "stylelint-config-standard" }. 3- npx stylelint "\*_/_.css"
+
 ## Author
 
 👤 **Author1**
