@@ -14,53 +14,41 @@
 
 # Live Demo
 
-[Demo](Link)
+[Demo](https://jellywiz.github.io/Leaderboard/)
+
+![image](https://user-images.githubusercontent.com/83097009/202228521-263f83dd-2da5-4b92-9387-c4d29c3e0cb2.png)
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+**To Create A Portfolio from this Repository feel free to contact me.**
 
-### Setup
+**To get a local copy up and running follow these simple steps.**
 
-run the following commands in your terminal
+- you can clone this repo by typing `git clone https://github.com/jellywiz/Leaderboard.git`.
+- type `cd Leaderboard.git` to access the project on terminal.
 
-- git clone https://github.com/jellywiz/Leaderboard.git
-- git checkout main
+### Installation
 
-### Install
+**To make the project run in your local machine:**
 
-you can install the following linters into your proejct through node, by these commands:
+1. - You will need to set up or install webpack in your machine. Open the link bellow for set up.
+2. - https://webpack.js.org/guides/getting-started/#basic-setup
 
-- Light House: npm install -g @lhci/cli@0.7.x
-- Webhint: npm install --save-dev hint@7.x
-- Stylelint: npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-- ESLint: npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-- Node packages: npm install, for the rest of the packages.
+**Installation of Packages.Json: Run the code bellow inside your terminal to install Packages.Json in your local machine.**
 
-### Deployment
-
-you can deploy your project through github pages.
-
-- make a repo for your project on github.
-- go to your project settings.
-- click on pages.
-- select the desired branch to deploy.
-- click save.
+1. npm install --save-dev stylelint stylelint-config-standard.
+2. { "extends": "stylelint-config-standard" }. 3- npx stylelint "\*_/_.css"
 
 ## Author
 
 👤 **Author1**
 
 - GitHub: [@Jellywiz](https://github.com/jellywiz/)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muzaffer-dler-473484205/)
+- LinkedIn: [@MuzafferDler](https://www.linkedin.com/in/muzaffer-dler-473484205/)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used.
+Contributions, issues, and feature requests are welcome.
 
 Feel free to check the [issues page](../../issues/).
 
@@ -68,6 +56,14 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._

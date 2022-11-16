@@ -1,18 +1,26 @@
+body {
+  background-color: #8ebfe7;
+}
+
 header {
-  background-color: #000;
+  background-color: #59c1bd;
   color: #fff;
   padding: 10px;
   text-align: center;
+  width: 61%;
+  margin: auto;
 }
 
 h1 {
-  color: orange;
+  color: #002e94;
+  opacity: 1;
 }
 
 h2 {
   font-size: 2em;
   margin: auto;
   width: 60%;
+  color: #083aa9;
 }
 
 ul {
@@ -24,7 +32,25 @@ li {
 }
 
 li:nth-child(even) {
-  background-color: #ccc;
+  background-color: #d6e4e5;
+}
+
+li:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input:hover {
+  background-color: #d6e4e5;
+  border-radius: 12px;
+  border: 2px solid #083aa9;
+  transition: 0.5s;
 }
 
 .form-class {
@@ -36,15 +62,27 @@ li:nth-child(even) {
 
 .container {
   width: 60%;
-  margin: 0 auto;
+  margin: 20px auto;
+  padding: 20px;
   display: flex;
   text-align: center;
-  justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
+  background-color: #59c1bd;
 }
 
 .left-container {
   width: 50%;
+}
+
+.btn-submit > button {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  width: 20%;
+  border-radius: 12px;
+  cursor: pointer;
 }
 
 .recent-con {
@@ -53,18 +91,27 @@ li:nth-child(even) {
 }
 
 .recent-con > button {
-  background-color: #000;
-  color: #fff;
-  border: 1px solid #fff;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
   padding: 10px;
   margin: 10px 100px 0 0;
   width: 20%;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.recent-con > button:hover {
+  background-color: #4649ff;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.5s;
 }
 
 .recent-scores {
   text-align: left;
   margin-left: 0;
-  border: 1px solid #000;
+  border: 2px solid #4649ff;
 }
 
 .right-container {
@@ -76,11 +123,16 @@ li:nth-child(even) {
   text-align: right;
 }
 
-.btn-submit > button {
-  background-color: #000;
+.btn-submit > button:hover {
+  background-color: #4649ff;
   color: #fff;
   border: 1px solid #fff;
-  padding: 10px;
-  margin: 10px 0 0 0;
-  width: 20%;
+  transition: 0.5s;
+}
+
+li:hover {
+  background-color: #4649ff;
+  color: #fff;
+  border: 0.5px solid white;
+  transition: 0.5s;
 }
